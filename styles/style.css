@@ -16,6 +16,7 @@ main{
     background-color: #FFFFFF;
     width: 870px;
     height: 679px;
+    margin-top: 21px;
     padding-left: 30px;
     border-radius: 5px;
 }
@@ -81,4 +82,51 @@ hr{
 }
 .blog a{
     text-decoration: none;
+}
+
+/* latest course */
+.latest-course{
+    width: 870px;
+    height: 362px;
+    margin-top: 21px;
+    margin-bottom: 28px;
+    padding-left: 30px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.course-text{
+    font-size: 24px;
+    color: #562EFF;
+}
+.all-course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.course img{
+    width: 224px;
+    height: 104px;
+}
+.course h3{
+    color: #1E1E1E;
+    font-size: 20px;
+}
+.author{
+    font-size: 14px;
+    color: #ED6B4F;
+    padding-top: 0;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.feield{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
 }
